@@ -1,0 +1,120 @@
+2025-04-22 17:39:13 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-22 17:39:13 INFO  t.c.m.F.FopXmlToPdfApplication - Starting FopXmlToPdfApplication using Java 21.0.2 with PID 15196 (D:\playground\FopXmlToPdf\target\classes started by mustafa.karakaya in D:\playground\FopXmlToPdf)
+2025-04-22 17:39:13 DEBUG t.c.m.F.FopXmlToPdfApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-22 17:39:13 INFO  t.c.m.F.FopXmlToPdfApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 17:39:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8244 (http)
+2025-04-22 17:39:15 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:39:15 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-22 17:39:15 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-22 17:39:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-22 17:39:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1896 ms
+2025-04-22 17:39:15 INFO  t.c.m.FopXmlToPdf.service.FopService - Loading fop.xconf from: D:\playground\FopXmlToPdf\target\classes\fop.xconf
+2025-04-22 17:39:16 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:39:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8244 (http) with context path '/'
+2025-04-22 17:39:16 INFO  t.c.m.F.FopXmlToPdfApplication - Started FopXmlToPdfApplication in 3.846 seconds (process running for 4.841)
+2025-04-22 17:39:16 INFO  t.c.m.F.util.DirectoryMonitor - Monitoring directory: input
+2025-04-22 17:39:25 INFO  t.c.m.FopXmlToPdf.service.FopService - Processing input\deneme1.xml to output\deneme1.pdf
+2025-04-22 17:39:25 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-04-22 17:39:25 INFO  t.c.m.FopXmlToPdf.service.FopService - Successfully generated PDF: output\deneme1.pdf
+2025-04-22 17:42:08 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-22 17:42:08 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-22 17:43:19 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-22 17:43:19 INFO  t.c.m.F.FopXmlToPdfApplication - Starting FopXmlToPdfApplication using Java 21.0.2 with PID 11428 (D:\playground\FopXmlToPdf\target\classes started by mustafa.karakaya in D:\playground\FopXmlToPdf)
+2025-04-22 17:43:19 DEBUG t.c.m.F.FopXmlToPdfApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-22 17:43:19 INFO  t.c.m.F.FopXmlToPdfApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 17:43:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8244 (http)
+2025-04-22 17:43:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:43:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-22 17:43:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-22 17:43:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-22 17:43:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1816 ms
+2025-04-22 17:43:21 INFO  t.c.m.FopXmlToPdf.service.FopService - Loading fop.xconf from: D:\playground\FopXmlToPdf\target\classes\fop.xconf
+2025-04-22 17:43:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:43:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8244 (http) with context path '/'
+2025-04-22 17:43:22 INFO  t.c.m.F.FopXmlToPdfApplication - Started FopXmlToPdfApplication in 3.735 seconds (process running for 4.85)
+2025-04-22 17:43:22 INFO  t.c.m.F.util.DirectoryMonitor - Monitoring directory: input
+2025-04-22 17:43:26 INFO  t.c.m.FopXmlToPdf.service.FopService - Processing input\deneme1.xml to output\deneme1.pdf
+2025-04-22 17:43:27 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-04-22 17:43:27 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-04-22 17:43:27 WARN  org.apache.fop.apps.FOUserAgent - Glyph "İ" (0x130, Idot) not available in font "Helvetica-Bold".
+2025-04-22 17:43:27 WARN  org.apache.fop.apps.FOUserAgent - Glyph "ğ" (0x11f, gbreve) not available in font "Helvetica-Bold".
+2025-04-22 17:43:27 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-04-22 17:43:27 INFO  t.c.m.FopXmlToPdf.service.FopService - Successfully generated PDF: output\deneme1.pdf
+2025-04-22 17:47:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-22 17:47:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-22 17:47:15 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-22 17:47:15 INFO  t.c.m.F.FopXmlToPdfApplication - Starting FopXmlToPdfApplication using Java 21.0.2 with PID 5476 (D:\playground\FopXmlToPdf\target\classes started by mustafa.karakaya in D:\playground\FopXmlToPdf)
+2025-04-22 17:47:15 DEBUG t.c.m.F.FopXmlToPdfApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-22 17:47:15 INFO  t.c.m.F.FopXmlToPdfApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 17:47:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8244 (http)
+2025-04-22 17:47:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:47:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-22 17:47:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-22 17:47:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-22 17:47:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1620 ms
+2025-04-22 17:47:17 INFO  t.c.m.FopXmlToPdf.service.FopService - Loading fop.xconf from: D:\playground\FopXmlToPdf\target\classes\fop.xconf
+2025-04-22 17:47:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:47:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8244 (http) with context path '/'
+2025-04-22 17:47:18 INFO  t.c.m.F.FopXmlToPdfApplication - Started FopXmlToPdfApplication in 3.428 seconds (process running for 4.445)
+2025-04-22 17:47:18 INFO  t.c.m.F.util.DirectoryMonitor - Monitoring directory: input
+2025-04-22 17:47:27 INFO  t.c.m.FopXmlToPdf.service.FopService - Processing input\deneme1.xml to output\deneme1.pdf
+2025-04-22 17:47:27 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-04-22 17:47:27 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-04-22 17:47:27 WARN  org.apache.fop.apps.FOUserAgent - Glyph "İ" (0x130, Idot) not available in font "Helvetica-Bold".
+2025-04-22 17:47:27 WARN  org.apache.fop.apps.FOUserAgent - Glyph "ğ" (0x11f, gbreve) not available in font "Helvetica-Bold".
+2025-04-22 17:47:27 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-04-22 17:47:27 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-04-22 17:47:27 INFO  t.c.m.FopXmlToPdf.service.FopService - Successfully generated PDF: output\deneme1.pdf
+2025-04-22 17:54:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-22 17:54:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-22 17:56:10 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-22 17:56:10 INFO  t.c.m.F.FopXmlToPdfApplication - Starting FopXmlToPdfApplication using Java 21.0.2 with PID 11840 (D:\playground\FopXmlToPdf\target\classes started by mustafa.karakaya in D:\playground\FopXmlToPdf)
+2025-04-22 17:56:10 DEBUG t.c.m.F.FopXmlToPdfApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-22 17:56:10 INFO  t.c.m.F.FopXmlToPdfApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 17:56:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8244 (http)
+2025-04-22 17:56:12 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:56:12 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-22 17:56:12 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-22 17:56:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-22 17:56:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2404 ms
+2025-04-22 17:56:13 INFO  t.c.m.FopXmlToPdf.service.FopService - Loading fop.xconf from: D:\playground\FopXmlToPdf\target\classes\fop.xconf
+2025-04-22 17:56:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:56:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8244 (http) with context path '/'
+2025-04-22 17:56:14 INFO  t.c.m.F.FopXmlToPdfApplication - Started FopXmlToPdfApplication in 4.472 seconds (process running for 5.643)
+2025-04-22 17:56:14 INFO  t.c.m.F.util.DirectoryMonitor - Monitoring directory: input
+2025-04-22 17:56:22 INFO  t.c.m.FopXmlToPdf.service.FopService - Processing input\deneme1.xml to output\deneme1.pdf
+2025-04-22 17:56:22 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-04-22 17:56:22 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-04-22 17:56:22 WARN  org.apache.fop.apps.FOUserAgent - Glyph "İ" (0x130, Idot) not available in font "Helvetica-Bold".
+2025-04-22 17:56:22 WARN  org.apache.fop.apps.FOUserAgent - Glyph "ğ" (0x11f, gbreve) not available in font "Helvetica-Bold".
+2025-04-22 17:56:22 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-04-22 17:56:22 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-04-22 17:56:22 INFO  t.c.m.FopXmlToPdf.service.FopService - Successfully generated PDF: output\deneme1.pdf
+2025-04-22 17:59:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-22 17:59:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-22 17:59:40 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-22 17:59:40 INFO  t.c.m.F.FopXmlToPdfApplication - Starting FopXmlToPdfApplication using Java 21.0.2 with PID 15680 (D:\playground\FopXmlToPdf\target\classes started by mustafa.karakaya in D:\playground\FopXmlToPdf)
+2025-04-22 17:59:40 DEBUG t.c.m.F.FopXmlToPdfApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-22 17:59:40 INFO  t.c.m.F.FopXmlToPdfApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 17:59:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8244 (http)
+2025-04-22 17:59:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:59:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-22 17:59:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-22 17:59:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-22 17:59:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1814 ms
+2025-04-22 17:59:42 INFO  t.c.m.FopXmlToPdf.service.FopService - Loading fop.xconf from: D:\playground\FopXmlToPdf\target\classes\fop.xconf
+2025-04-22 17:59:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8244"]
+2025-04-22 17:59:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8244 (http) with context path '/'
+2025-04-22 17:59:43 INFO  t.c.m.F.FopXmlToPdfApplication - Started FopXmlToPdfApplication in 3.763 seconds (process running for 4.736)
+2025-04-22 17:59:43 INFO  t.c.m.F.util.DirectoryMonitor - Monitoring directory: input
+2025-04-22 17:59:55 INFO  t.c.m.FopXmlToPdf.service.FopService - Processing input\deneme1.xml to output\deneme1.pdf
+2025-04-22 17:59:55 WARN  org.apache.fop.apps.FOUserAgent - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2025-04-22 17:59:55 WARN  org.apache.fop.apps.FOUserAgent - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2025-04-22 17:59:55 WARN  org.apache.fop.apps.FOUserAgent - Glyph "İ" (0x130, Idot) not available in font "Helvetica-Bold".
+2025-04-22 17:59:55 WARN  org.apache.fop.apps.FOUserAgent - Glyph "ğ" (0x11f, gbreve) not available in font "Helvetica-Bold".
+2025-04-22 17:59:56 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #1.
+2025-04-22 17:59:56 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #2.
+2025-04-22 17:59:56 INFO  org.apache.fop.apps.FOUserAgent - Rendered page #3.
+2025-04-22 17:59:56 INFO  t.c.m.FopXmlToPdf.service.FopService - Successfully generated PDF: output\deneme1.pdf
+2025-04-22 18:00:42 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-22 18:00:42 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
